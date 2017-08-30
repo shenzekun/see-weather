@@ -1,0 +1,28 @@
+{
+  "name": "see-weather",
+  "version": "1.0.4",
+  "description": " 天气预报",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenzekun/see-weather.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "shenzekun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenzekun/see-weather/issues"
+  },
+  "homepage": "https://github.com/shenzekun/see-weather#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
