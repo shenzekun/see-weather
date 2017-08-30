@@ -1,6 +1,6 @@
 {
   "name": "see-weather",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": " 天气预报",
   "main": "index.js",
   "bin": {
