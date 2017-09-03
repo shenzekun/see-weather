@@ -11,7 +11,7 @@ if (process.argv[2]) {
 
 
 axios.get('http://api.jirengu.com/weather.php', data).then(function (res) {
-    if (res.data.status == 200) {
+    if (res.data.status == 'success') {
         var weather = res.data.results[0].weather_data[0];
         console.log("位置：" + res.data.results[0].currentCity + " " + weather.temperature);
         console.log("今天" + weather.date);
